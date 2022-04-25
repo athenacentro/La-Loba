@@ -44,20 +44,23 @@ TagManager:
   - name: Ground
     uniqueID: 4001071179
     locked: 0
+  - name: Foreground
+    uniqueID: 1521856437
+    locked: 0
   - name: Trees
     uniqueID: 1837115127
     locked: 0
   - name: Houses and Towers
     uniqueID: 2972848185
     locked: 0
+  - name: Stones
+    uniqueID: 93612809
+    locked: 0
   - name: Character
     uniqueID: 2921482523
     locked: 0
   - name: Bushes
     uniqueID: 2979966033
-    locked: 0
-  - name: Stones
-    uniqueID: 93612809
     locked: 0
   - name: UI
     uniqueID: 3861064111

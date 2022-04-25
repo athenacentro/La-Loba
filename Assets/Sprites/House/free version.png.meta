@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: c5f4f97b455a1604f8c4cf4c1f504035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5417840541486123170
+    second: free version_0
+  - first:
+      213: 1701790139740859524
+    second: free version_1
+  - first:
+      213: 8689952035475668872
+    second: free version_2
+  - first:
+      213: 4312950492968968847
+    second: free version_3
+  - first:
+      213: -7272652175232090847
+    second: free version_4
+  - first:
+      213: -7411751702781111819
+    second: free version_5
+  - first:
+      213: -4706864011267478648
+    second: free version_6
+  - first:
+      213: 5597805861334960265
+    second: free version_7
+  - first:
+      213: -2742349238203640742
+    second: free version_8
+  - first:
+      213: -1551646802339693947
+    second: free version_9
+  - first:
+      213: -684678532200030586
+    second: free version_10
+  - first:
+      213: -2825727144831123757
+    second: free version_11
+  - first:
+      213: 8393206221514953474
+    second: free version_12
+  - first:
+      213: -6667213078074869031
+    second: free version_13
+  - first:
+      213: 4587452241557575675
+    second: free version_14
+  - first:
+      213: -3325193006438562017
+    second: free version_15
+  - first:
+      213: 2719695629718975111
+    second: free version_16
+  - first:
+      213: 4360117847761845692
+    second: free version_17
+  - first:
+      213: -3831247713445843186
+    second: free version_18
+  - first:
+      213: 143033111655588217
+    second: free version_19
+  - first:
+      213: 3180794588058098639
+    second: free version_20
+  - first:
+      213: -8418104187711824087
+    second: free version_21
+  - first:
+      213: 5126808553866044203
+    second: free version_22
+  - first:
+      213: 2803659032379901279
+    second: free version_23
+  - first:
+      213: 1172565524465367398
+    second: free version_24
+  - first:
+      213: -5772542113597820264
+    second: free version_25
+  - first:
+      213: 8265852017126856828
+    second: free version_26
+  - first:
+      213: -5093301144912236736
+    second: free version_27
+  - first:
+      213: -1263099608022139922
+    second: free version_28
+  - first:
+      213: 5356612319432202012
+    second: free version_29
+  - first:
+      213: 8242821818754834718
+    second: free version_30
+  - first:
+      213: -4146556399580761830
+    second: free version_31
+  - first:
+      213: 2362739208171447152
+    second: free version_32
+  - first:
+      213: -5891530293629669751
+    second: free version_33
+  - first:
+      213: -3735552377070061782
+    second: free version_34
+  - first:
+      213: 8391744141838759824
+    second: free version_35
+  - first:
+      213: -2432727921332264927
+    second: free version_36
+  - first:
+      213: -7656702064973929479
+    second: free version_37
+  - first:
+      213: -9212685419089585639
+    second: free version_38
+  - first:
+      213: -4949539685314106881
+    second: free version_39
+  - first:
+      213: -7745455655552058697
+    second: free version_40
+  - first:
+      213: 4918983126966322342
+    second: free version_41
+  - first:
+      213: 1196510134939035151
+    second: free version_42
+  - first:
+      213: -2901096434702232077
+    second: free version_43
+  - first:
+      213: -7752957206978340813
+    second: free version_44
+  - first:
+      213: 4352408792332057438
+    second: free version_45
+  - first:
+      213: -3052752034128681182
+    second: free version_46
+  - first:
+      213: 9159352505975749667
+    second: free version_47
+  - first:
+      213: 1899641923309633662
+    second: free version_48
+  - first:
+      213: 2768505440606673193
+    second: free version_49
+  - first:
+      213: -8983386349108993228
+    second: free version_50
+  - first:
+      213: 6947297701173157845
+    second: free version_51
+  - first:
+      213: 6687450107784858501
+    second: free version_52
+  - first:
+      213: 2153762530413119138
+    second: free version_53
+  - first:
+      213: -4552426580926361899
+    second: free version_54
+  - first:
+      213: -3490069170416833818
+    second: free version_55
+  - first:
+      213: 6143484769655778887
+    second: free version_56
+  - first:
+      213: 7627220994703398225
+    second: free version_57
+  - first:
+      213: 259948041431069781
+    second: free version_58
+  - first:
+      213: -3005064771221147993
+    second: free version_59
+  - first:
+      213: -4763011406017146772
+    second: free version_60
+  - first:
+      213: -2626437680731324552
+    second: free version_61
+  - first:
+      213: 1998457863034957497
+    second: free version_62
+  - first:
+      213: -4911446874167599860
+    second: free version_63
+  - first:
+      213: 2073787037121462937
+    second: free version_64
+  - first:
+      213: -2583189674443631121
+    second: free version_65
+  - first:
+      213: 7990285276346240547
+    second: free version_66
+  - first:
+      213: 3908233659450354311
+    second: free version_67
+  - first:
+      213: 4510424071037399542
+    second: free version_68
+  - first:
+      213: -2126788445189480599
+    second: free version_69
+  - first:
+      213: 3397096436007414907
+    second: free version_70
+  - first:
+      213: 8208138297862519948
+    second: free version_71
+  - first:
+      213: 2734015158032532412
+    second: free version_72
+  - first:
+      213: -8608919968427942032
+    second: free version_73
+  - first:
+      213: -144845450785129040
+    second: free version_74
+  - first:
+      213: -1156614698719075914
+    second: free version_75
+  - first:
+      213: -4446316702234860277
+    second: free version_76
+  - first:
+      213: -8195156057526115309
+    second: free version_77
+  - first:
+      213: -1561350614782018957
+    second: free version_78
+  - first:
+      213: -5326325365668306338
+    second: free version_79
+  - first:
+      213: -803639537521972318
+    second: free version_80
+  - first:
+      213: -7956161692113269893
+    second: free version_81
+  - first:
+      213: 2922063173191273948
+    second: free version_82
+  - first:
+      213: -5862485926571381179
+    second: free version_83
+  - first:
+      213: -8861293597212324544
+    second: free version_84
+  - first:
+      213: -2785665608267403729
+    second: free version_85
+  - first:
+      213: -929067546498513264
+    second: free version_86
+  - first:
+      213: 821469906904805907
+    second: free version_87
+  - first:
+      213: -856335928623324018
+    second: free version_88
+  - first:
+      213: -2231564912781443232
+    second: free version_89
+  - first:
+      213: 1782880521932552047
+    second: free version_90
+  - first:
+      213: 979871571448370074
+    second: free version_91
+  - first:
+      213: -4256340467546276151
+    second: free version_92
+  - first:
+      213: -7407459189214050266
+    second: free version_93
+  - first:
+      213: -4095645910384692269
+    second: free version_94
+  - first:
+      213: -7621017984761683986
+    second: free version_95
+  - first:
+      213: -7695360384729866486
+    second: free version_96
+  - first:
+      213: 5796948838988097049
+    second: free version_97
+  - first:
+      213: 1961119635265563895
+    second: free version_98
+  - first:
+      213: -8001461565627614972
+    second: free version_99
+  - first:
+      213: -1690048888273594917
+    second: free version_100
+  - first:
+      213: -5074928412753960613
+    second: free version_101
+  - first:
+      213: 1198454364862042847
+    second: free version_102
+  - first:
+      213: -6640306520947975732
+    second: free version_103
+  - first:
+      213: 4203241343618308074
+    second: free version_104
+  - first:
+      213: 2066891597669657835
+    second: free version_105
+  - first:
+      213: -7112182621646852375
+    second: free version_106
+  - first:
+      213: -6522222365646256134
+    second: free version_107
+  - first:
+      213: 4856810773982386963
+    second: free version_108
+  - first:
+      213: 2498925117956820906
+    second: free version_109
+  - first:
+      213: -8193381122244588676
+    second: free version_110
+  - first:
+      213: 3171931008795283548
+    second: free version_111
+  - first:
+      213: -4010450746625379819
+    second: free version_112
+  - first:
+      213: -3899193434212688891
+    second: free version_113
+  - first:
+      213: -6599093347941767636
+    second: free version_114
+  - first:
+      213: 7068413941968543469
+    second: free version_115
+  - first:
+      213: -5452690645982241151
+    second: free version_116
+  - first:
+      213: 1554358837417880637
+    second: free version_117
+  - first:
+      213: -5428489044594886009
+    second: free version_118
+  - first:
+      213: -7481922461466192712
+    second: free version_119
+  - first:
+      213: 6799429085942354024
+    second: free version_120
+  - first:
+      213: -8652801345590118154
+    second: free version_121
+  - first:
+      213: 2437585191812683256
+    second: free version_122
+  - first:
+      213: 2356614481841585704
+    second: free version_123
+  - first:
+      213: 8017266456998932331
+    second: free version_124
+  - first:
+      213: -3649213422910023282
+    second: free version_125
+  - first:
+      213: -7576161100419954133
+    second: free version_126
+  - first:
+      213: -5609218548025016584
+    second: free version_127
+  - first:
+      213: -6357620193786514072
+    second: free version_128
+  - first:
+      213: 5303705082190457256
+    second: free version_129
+  - first:
+      213: -3547865525403528117
+    second: free version_130
+  - first:
+      213: 4499164380635955317
+    second: free version_131
+  - first:
+      213: 637474402547316055
+    second: free version_132
+  - first:
+      213: -1069640102946076279
+    second: free version_133
+  - first:
+      213: -5736025337447592640
+    second: free version_134
+  - first:
+      213: -7796470684582533642
+    second: free version_135
+  - first:
+      213: -8636364157590074874
+    second: free version_136
+  - first:
+      213: 7322186928330851396
+    second: free version_137
+  - first:
+      213: 5359226405205276228
+    second: free version_138
+  - first:
+      213: 7899436127164709153
+    second: free version_139
+  - first:
+      213: 8616873185971269512
+    second: free version_140
+  - first:
+      213: 5712702133504621777
+    second: free version_141
+  - first:
+      213: 2059616868124921539
+    second: free version_142
+  - first:
+      213: -7072361560889180632
+    second: free version_143
+  - first:
+      213: 4069752332501501385
+    second: free version_144
+  - first:
+      213: 2727660014745077216
+    second: free version_145
+  - first:
+      213: 3870531878012092484
+    second: free version_146
+  - first:
+      213: -6016744341691668539
+    second: free version_147
+  - first:
+      213: 5842080841960704932
+    second: free version_148
+  - first:
+      213: -7622572940037436082
+    second: free version_149
+  - first:
+      213: 7738206340502762937
+    second: free version_150
+  - first:
+      213: -4945920603494847700
+    second: free version_151
+  - first:
+      213: -6397249606279845762
+    second: free version_152
+  - first:
+      213: -1032971977617016957
+    second: free version_153
+  - first:
+      213: -3826901928664510170
+    second: free version_154
+  - first:
+      213: -1418430031724075222
+    second: free version_155
+  - first:
+      213: -1872901786204042915
+    second: free version_156
+  - first:
+      213: -4747400860287733313
+    second: free version_157
+  - first:
+      213: -1164472245337394452
+    second: free version_158
+  - first:
+      213: 3459915680915833661
+    second: free version_159
+  - first:
+      213: 7609357091527858099
+    second: free version_160
+  - first:
+      213: -3357131622894830988
+    second: free version_161
+  - first:
+      213: -8742293933497165034
+    second: free version_162
+  - first:
+      213: 1661438551690025252
+    second: free version_163
+  - first:
+      213: 4633646315350396485
+    second: free version_164
+  - first:
+      213: -4354870172119955646
+    second: free version_165
+  - first:
+      213: 7215866965676307070
+    second: free version_166
+  - first:
+      213: 7022928640978772420
+    second: free version_167
+  - first:
+      213: -1453844736796530898
+    second: free version_168
+  - first:
+      213: -5316441758667945810
+    second: free version_169
+  - first:
+      213: 7777937592682616211
+    second: free version_170
+  - first:
+      213: 4419313156447780218
+    second: free version_171
+  - first:
+      213: -789223811790835051
+    second: free version_172
+  - first:
+      213: -6441513597788670310
+    second: free version_173
+  - first:
+      213: 5646428399117408036
+    second: free version_174
+  - first:
+      213: 6559677389475190480
+    second: free version_175
+  - first:
+      213: 8186221570853893869
+    second: free version_176
+  - first:
+      213: 2131547354484424014
+    second: free version_177
+  - first:
+      213: 1633055301453410995
+    second: free version_178
+  - first:
+      213: -6080590012291798062
+    second: free version_179
+  - first:
+      213: -3344193286368197337
+    second: free version_180
+  - first:
+      213: 788863265489349047
+    second: free version_181
+  - first:
+      213: 3016997405873334735
+    second: free version_182
+  - first:
+      213: -5081880567869295989
+    second: free version_183
+  - first:
+      213: 5168233805521853766
+    second: free version_184
+  - first:
+      213: -1760592483284071670
+    second: free version_185
+  - first:
+      213: -4240158392732829689
+    second: free version_186
+  - first:
+      213: 8805984601239612728
+    second: free version_187
+  - first:
+      213: -8267661640621355979
+    second: free version_188
+  - first:
+      213: -6341082613488573756
+    second: free version_189
+  - first:
+      213: -2046653557341494312
+    second: free version_190
+  - first:
+      213: -4843995780511462991
+    second: free version_191
+  - first:
+      213: 6040699475688504126
+    second: free version_192
+  - first:
+      213: -5636679467416024225
+    second: free version_193
+  - first:
+      213: -3946212975225774781
+    second: free version_194
+  - first:
+      213: 3609161863471187150
+    second: free version_195
+  - first:
+      213: -5681657657905117094
+    second: free version_196
+  - first:
+      213: 6653575287947896831
+    second: free version_197
+  - first:
+      213: -816781681037031884
+    second: free version_198
+  - first:
+      213: 6825496144867422525
+    second: free version_199
+  - first:
+      213: 3846237248626757514
+    second: free version_200
+  - first:
+      213: 935757824658554952
+    second: free version_201
+  - first:
+      213: 1749911330486862534
+    second: free version_202
+  - first:
+      213: 6739067430851470366
+    second: free version_203
+  - first:
+      213: 1150381827009213123
+    second: free version_204
+  - first:
+      213: -7341052194332884990
+    second: free version_205
+  - first:
+      213: -75783926144140500
+    second: free version_206
+  - first:
+      213: 7176361680065991179
+    second: free version_207
+  - first:
+      213: -7904676322111115027
+    second: free version_208
+  - first:
+      213: 2477472364405681930
+    second: free version_209
+  - first:
+      213: -4239436124259812426
+    second: free version_210
+  - first:
+      213: 487285919232039517
+    second: free version_211
+  - first:
+      213: -768383463352135415
+    second: free version_212
+  - first:
+      213: -8689592306670876302
+    second: free version_213
+  - first:
+      213: 4914918541259982027
+    second: free version_214
+  - first:
+      213: -6091787759049534348
+    second: free version_215
+  - first:
+      213: 6870814797482034884
+    second: free version_216
+  - first:
+      213: -4525859376821887812
+    second: free version_217
+  - first:
+      213: -4640613694136846238
+    second: free version_218
+  - first:
+      213: 7186841242677051534
+    second: free version_219
+  - first:
+      213: 2134522003258539819
+    second: free version_220
+  - first:
+      213: 1935877551627349634
+    second: free version_221
+  - first:
+      213: 8855821294919841478
+    second: free version_222
+  - first:
+      213: 5952566743998641105
+    second: free version_223
+  - first:
+      213: -6053288084200613544
+    second: free version_224
+  - first:
+      213: -2606092173809567871
+    second: free version_225
+  - first:
+      213: -8273055933382830537
+    second: free version_226
+  - first:
+      213: -1435096153875676293
+    second: free version_227
+  - first:
+      213: -3262800087452023190
+    second: free version_228
+  - first:
+      213: 9135492002339137969
+    second: free version_229
+  - first:
+      213: 3756592773155573478
+    second: free version_230
+  - first:
+      213: -2942866914690996884
+    second: free version_231
+  - first:
+      213: -3420261797756503929
+    second: free version_232
+  - first:
+      213: 6578620186035724500
+    second: free version_233
+  - first:
+      213: 7589851673162332719
+    second: free version_234
+  - first:
+      213: -2895190702115810201
+    second: free version_235
+  - first:
+      213: 542455555405973689
+    second: free version_236
+  - first:
+      213: -1269376775202499306
+    second: free version_237
+  - first:
+      213: 8320579170933970421
+    second: free version_238
+  - first:
+      213: 4344598686128642477
+    second: free version_239
+  - first:
+      213: -7004971397117350568
+    second: free version_240
+  - first:
+      213: 3153399516595936194
+    second: free version_241
+  - first:
+      213: 6599797639014473045
+    second: free version_242
+  - first:
+      213: -4511302969513753977
+    second: free version_243
+  - first:
+      213: 8121558250081495299
+    second: free version_244
+  - first:
+      213: -5596580554193061667
+    second: free version_245
+  - first:
+      213: 4181494091776397257
+    second: free version_246
+  - first:
+      213: -8274668396331589176
+    second: free version_247
+  - first:
+      213: 8021521279525174697
+    second: free version_248
+  - first:
+      213: -6928959661699736105
+    second: free version_249
+  - first:
+      213: 6529599267789965160
+    second: free version_250
+  - first:
+      213: 8902309287508374049
+    second: free version_251
+  - first:
+      213: 9214214999696209743
+    second: free version_252
+  - first:
+      213: 8290966773643221070
+    second: free version_253
+  - first:
+      213: 5234489494498774137
+    second: free version_254
+  - first:
+      213: -1078952420841296244
+    second: free version_255
+  - first:
+      213: -6233070895613127996
+    second: free version_256
+  - first:
+      213: -1925008455088729341
+    second: free version_257
+  - first:
+      213: 892010190363922792
+    second: free version_258
+  - first:
+      213: 995323035150745492
+    second: free version_259
+  - first:
+      213: 2034980279113470205
+    second: free version_260
+  - first:
+      213: 3889687032387654913
+    second: free version_261
+  - first:
+      213: -8149549742653538009
+    second: free version_262
+  - first:
+      213: 6608517046214907860
+    second: free version_263
+  - first:
+      213: -6232311662209616011
+    second: free version_264
+  - first:
+      213: 1844538451157881129
+    second: free version_265
+  - first:
+      213: 4303992671776816011
+    second: free version_266
+  - first:
+      213: 9104924197484564199
+    second: free version_267
+  - first:
+      213: 3960109368651246155
+    second: free version_268
+  - first:
+      213: 4726029371738310571
+    second: free version_269
+  - first:
+      213: -5045367740497133448
+    second: free version_270
+  - first:
+      213: -2161113368978133774
+    second: free version_271
+  - first:
+      213: 4816010359954212368
+    second: free version_272
+  - first:
+      213: 7587357604131444504
+    second: free version_273
+  - first:
+      213: -4848868899507864694
+    second: free version_274
+  - first:
+      213: 9162036705447048449
+    second: free version_275
+  - first:
+      213: -714204670603718534
+    second: free version_276
+  - first:
+      213: -5383795089734943952
+    second: free version_277
+  - first:
+      213: 7908400026088606671
+    second: free version_278
+  - first:
+      213: -5039869303520456010
+    second: free version_279
+  - first:
+      213: 3232721811573328653
+    second: free version_280
+  - first:
+      213: -5889431837550047389
+    second: free version_281
+  - first:
+      213: -3469362303305335896
+    second: free version_282
+  - first:
+      213: 1005305275386472200
+    second: free version_283
+  - first:
+      213: -7942528734474662758
+    second: free version_284
+  - first:
+      213: 2808316790029394162
+    second: free version_285
+  - first:
+      213: 4802600860752164230
+    second: free version_286
+  - first:
+      213: -7368062305075158705
+    second: free version_287
+  - first:
+      213: -6464459828884841851
+    second: free version_288
+  - first:
+      213: -5349726757810023467
+    second: free version_289
+  - first:
+      213: -7826790387702281700
+    second: free version_290
+  - first:
+      213: -972729167374856756
+    second: free version_291
+  - first:
+      213: -7115529598464572169
+    second: free version_292
+  - first:
+      213: 1232393797134721953
+    second: free version_293
+  - first:
+      213: -3880993471119924723
+    second: free version_294
+  - first:
+      213: 4740350498204001121
+    second: free version_295
+  - first:
+      213: -7864826301397650608
+    second: free version_296
+  - first:
+      213: 7691277740244515856
+    second: free version_297
+  - first:
+      213: 333143244687077382
+    second: free version_298
+  - first:
+      213: -6694453773029793326
+    second: free version_299
+  - first:
+      213: 3217049193422515771
+    second: free version_300
+  - first:
+      213: -5743691231934749035
+    second: free version_301
+  - first:
+      213: -446348145882597073
+    second: free version_302
+  - first:
+      213: -7061984680926859288
+    second: free version_303
+  - first:
+      213: 3117181517918131679
+    second: free version_304
+  - first:
+      213: -6118876899239895928
+    second: free version_305
+  - first:
+      213: 5898430381296558284
+    second: free version_306
+  - first:
+      213: -6865096798066230963
+    second: free version_307
+  - first:
+      213: -5495177788858667867
+    second: free version_308
+  - first:
+      213: -2449392014354055110
+    second: free version_309
+  - first:
+      213: -666919787728556320
+    second: free version_310
+  - first:
+      213: -5226284320709786085
+    second: free version_311
+  - first:
+      213: 5122175834907166534
+    second: free version_312
+  - first:
+      213: 3057124393181824244
+    second: free version_313
+  - first:
+      213: -2063230291537166827
+    second: free version_314
+  - first:
+      213: 8532647967675648417
+    second: free version_315
+  - first:
+      213: -7105383224198419312
+    second: free version_316
+  - first:
+      213: 2660380655811648071
+    second: free version_317
+  - first:
+      213: 1137727412175094175
+    second: free version_318
+  - first:
+      213: -8024173619342922496
+    second: free version_319
+  - first:
+      213: -792437012852905680
+    second: free version_320
+  - first:
+      213: -4623397023327937680
+    second: free version_321
+  - first:
+      213: -1008014402838911913
+    second: free version_322
+  - first:
+      213: -1880319144921437486
+    second: free version_323
+  - first:
+      213: 5524676236405598540
+    second: free version_324
+  - first:
+      213: 5988626725759229887
+    second: free version_325
+  - first:
+      213: -4096202429060963844
+    second: free version_326
+  - first:
+      213: 438605356001539597
+    second: free version_327
+  - first:
+      213: -7563933812964102107
+    second: free version_328
+  - first:
+      213: -1430471378637467490
+    second: free version_329
+  - first:
+      213: -7859897355988952916
+    second: free version_330
+  - first:
+      213: -341693007641730285
+    second: free version_331
+  - first:
+      213: 866445967013140821
+    second: free version_332
+  - first:
+      213: 4312349252384015722
+    second: free version_333
+  - first:
+      213: -2991692730061888384
+    second: free version_334
+  - first:
+      213: 9013642912043984068
+    second: free version_335
+  - first:
+      213: 4247294533480756471
+    second: free version_336
+  - first:
+      213: 6581443698453376296
+    second: free version_337
+  - first:
+      213: -8472012779709099858
+    second: free version_338
+  - first:
+      213: 5805984320060253532
+    second: free version_339
+  - first:
+      213: -9099381218810664314
+    second: free version_340
+  - first:
+      213: 8333589780444699033
+    second: free version_341
+  - first:
+      213: 5258709010698702760
+    second: free version_342
+  - first:
+      213: 1018774926324122743
+    second: free version_343
+  - first:
+      213: -763444731479755413
+    second: free version_344
+  - first:
+      213: 96722936403715483
+    second: free version_345
+  - first:
+      213: 4167658757404201373
+    second: free version_346
+  - first:
+      213: -7262464417666525552
+    second: free version_347
+  - first:
+      213: 345149887800197510
+    second: free version_348
+  - first:
+      213: 7743491051445050707
+    second: free version_349
+  - first:
+      213: 4623461489691998523
+    second: free version_350
+  - first:
+      213: 3674269883049814295
+    second: free version_351
+  - first:
+      213: -2096485186011148023
+    second: free version_352
+  - first:
+      213: -2064494469483003311
+    second: free version_353
+  - first:
+      213: -1495700315044140591
+    second: free version_354
+  - first:
+      213: -157879385633815275
+    second: free version_355
+  - first:
+      213: 862120395554892289
+    second: free version_356
+  - first:
+      213: -4769424172997431452
+    second: free version_357
+  - first:
+      213: -5671020604486800426
+    second: free version_358
+  - first:
+      213: 2734965389883273473
+    second: free version_359
+  - first:
+      213: -6275646272329419169
+    second: free version_360
+  - first:
+      213: 5369398561605763471
+    second: free version_361
+  - first:
+      213: 7182021697751068662
+    second: free version_362
+  - first:
+      213: 6400815007057536960
+    second: free version_363
+  - first:
+      213: -1306961521678308348
+    second: free version_364
+  - first:
+      213: -7990648265209924394
+    second: free version_365
+  - first:
+      213: -8593554643394379606
+    second: free version_366
+  - first:
+      213: -7091789397976665499
+    second: free version_367
+  - first:
+      213: -2951769627657571676
+    second: free version_368
+  - first:
+      213: -460514416319808405
+    second: free version_369
+  - first:
+      213: -8724029575574126100
+    second: free version_370
+  - first:
+      213: 2130059721071571149
+    second: free version_371
+  - first:
+      213: 7708106011226361251
+    second: free version_372
+  - first:
+      213: -8284895280284862104
+    second: free version_373
+  - first:
+      213: 7023299231355459788
+    second: free version_374
+  - first:
+      213: 1218117075701596077
+    second: free version_375
+  - first:
+      213: -7203197872183603543
+    second: free version_376
+  - first:
+      213: -8554743769060068583
+    second: free version_377
+  - first:
+      213: 8823311637633791627
+    second: free version_378
+  - first:
+      213: -8370283608773013730
+    second: free version_379
+  - first:
+      213: 2465913133821878839
+    second: free version_380
+  - first:
+      213: -8308696147257009433
+    second: free version_381
+  - first:
+      213: -2836258109662830082
+    second: free version_382
+  - first:
+      213: 3107861640204362500
+    second: free version_383
+  - first:
+      213: -4441455015881425496
+    second: free version_384
+  - first:
+      213: -897176732309124491
+    second: free version_385
+  - first:
+      213: 5386286522055733004
+    second: free version_386
+  - first:
+      213: 2007071723915880625
+    second: free version_387
+  - first:
+      213: -8823570259581891348
+    second: free version_388
+  - first:
+      213: 8849708591905337642
+    second: free version_389
+  - first:
+      213: -322602613099939228
+    second: free version_390
+  - first:
+      213: -4776547757355553403
+    second: free version_391
+  - first:
+      213: -1444891172912652868
+    second: free version_392
+  - first:
+      213: -3880902098416304613
+    second: free version_393
+  - first:
+      213: -3114249698364213617
+    second: free version_394
+  - first:
+      213: 560375326909397757
+    second: free version_395
+  - first:
+      213: -6028774197692806937
+    second: free version_396
+  - first:
+      213: 3178326130773331019
+    second: free version_397
+  - first:
+      213: -5843667087605602423
+    second: free version_398
+  - first:
+      213: -7341228232721795835
+    second: free version_399
+  - first:
+      213: 8412913341323524612
+    second: free version_400
+  - first:
+      213: 8451844656389929466
+    second: free version_401
+  - first:
+      213: -8903595701499588691
+    second: free version_402
+  - first:
+      213: 4835217857852504282
+    second: free version_403
+  - first:
+      213: 6408375124694573784
+    second: free version_404
+  - first:
+      213: -8604783172885648329
+    second: free version_405
+  - first:
+      213: 7165408481304553172
+    second: free version_406
+  - first:
+      213: -8338997031765551408
+    second: free version_407
+  - first:
+      213: 7343804334349940776
+    second: free version_408
+  - first:
+      213: 3929383215876989060
+    second: free version_409
+  - first:
+      213: 8140634001186769176
+    second: free version_410
+  - first:
+      213: -3644760628967317302
+    second: free version_411
+  - first:
+      213: 5421223448634659539
+    second: free version_412
+  - first:
+      213: -1051154249260506264
+    second: free version_413
+  - first:
+      213: -2344918034603217267
+    second: free version_414
+  - first:
+      213: 3190382404144101632
+    second: free version_415
+  - first:
+      213: -8347497751604629446
+    second: free version_416
+  - first:
+      213: 4926703529104325566
+    second: free version_417
+  - first:
+      213: -4251480680536520889
+    second: free version_418
+  - first:
+      213: 3435890104923340417
+    second: free version_419
+  - first:
+      213: -550364007737717842
+    second: free version_420
+  - first:
+      213: 3701199481340061765
+    second: free version_421
+  - first:
+      213: 5191060470461303239
+    second: free version_422
+  - first:
+      213: 5445885170399829795
+    second: free version_423
+  - first:
+      213: -3582037727227970031
+    second: free version_424
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: free version_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5772038bb6ffc4b0800000000000000
+      internalID: -5417840541486123170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c24899d19fd9710800000000000000
+      internalID: 1701790139740859524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fb5bdb559e89870800000000000000
+      internalID: 8689952035475668872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82e2435f9daadb30800000000000000
+      internalID: 4312950492968968847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12db158f069521b90800000000000000
+      internalID: -7272652175232090847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1d550781b242990800000000000000
+      internalID: -7411751702781111819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88be45aae1cddaeb0800000000000000
+      internalID: -4706864011267478648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988487eb5c66fad40800000000000000
+      internalID: 5597805861334960265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free version_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a541fceb5e731f9d0800000000000000
+      internalID: -2742349238203640742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

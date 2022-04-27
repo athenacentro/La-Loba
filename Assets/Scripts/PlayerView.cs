@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class PlayerView : MonoBehaviour
 {
-    public float moveSpeed;
+    [SerializeField] private float moveSpeed;
 
     private bool isMoving;
     private Vector2 input;
 
-    void Start()
+    private Animator animator;
+    
+    private void Awake()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     void Update()
+    {
+        PlayerInput();
+    }
+
+    private void PlayerInput()
     {
         if (!isMoving)
         {
@@ -26,6 +33,9 @@ public class PlayerView : MonoBehaviour
 
             if (input != Vector2.zero)
             {
+                animator.SetFloat("moveX", input.x);
+                animator.SetFloat("moveY", input.y);
+
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
@@ -33,7 +43,10 @@ public class PlayerView : MonoBehaviour
                 StartCoroutine(Move(targetPos));
             }
         }
+
+        animator.SetBool("isMoving", isMoving);
     }
+
 
     IEnumerator Move(Vector3 targetPos)
     {

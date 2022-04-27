@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ashina_0
+      name: spellup1
       rect:
         serializedVersion: 2
         x: 0
@@ -124,7 +124,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_1
+      name: spellup2
       rect:
         serializedVersion: 2
         x: 64
@@ -145,7 +145,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,7 +158,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_2
+      name: spellup3
       rect:
         serializedVersion: 2
         x: 128
@@ -166,7 +166,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_3
+      name: spellup4
       rect:
         serializedVersion: 2
         x: 192
@@ -187,7 +187,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_4
+      name: spellup5
       rect:
         serializedVersion: 2
         x: 256
@@ -208,7 +208,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_5
+      name: spellup6
       rect:
         serializedVersion: 2
         x: 320
@@ -229,7 +229,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,7 +242,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_6
+      name: spellup7
       rect:
         serializedVersion: 2
         x: 384
@@ -250,7 +250,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,7 +263,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_7
+      name: spellleft1
       rect:
         serializedVersion: 2
         x: 0
@@ -271,7 +271,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,7 +284,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_8
+      name: spellleft2
       rect:
         serializedVersion: 2
         x: 64
@@ -292,7 +292,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,7 +305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_9
+      name: spellleft3
       rect:
         serializedVersion: 2
         x: 128
@@ -313,7 +313,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,7 +326,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_10
+      name: spellleft4
       rect:
         serializedVersion: 2
         x: 192
@@ -334,7 +334,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,7 +347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_11
+      name: spellleft5
       rect:
         serializedVersion: 2
         x: 256
@@ -355,7 +355,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,7 +368,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_12
+      name: spellleft6
       rect:
         serializedVersion: 2
         x: 320
@@ -376,7 +376,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,7 +389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_13
+      name: spellleft7
       rect:
         serializedVersion: 2
         x: 384
@@ -397,7 +397,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_14
+      name: spelldown1
       rect:
         serializedVersion: 2
         x: 0
@@ -418,7 +418,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_15
+      name: spelldown2
       rect:
         serializedVersion: 2
         x: 64
@@ -439,7 +439,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -452,7 +452,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_16
+      name: spelldown3
       rect:
         serializedVersion: 2
         x: 128
@@ -460,7 +460,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_17
+      name: spelldown4
       rect:
         serializedVersion: 2
         x: 192
@@ -481,7 +481,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_18
+      name: spelldown5
       rect:
         serializedVersion: 2
         x: 256
@@ -502,7 +502,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_19
+      name: spelldown6
       rect:
         serializedVersion: 2
         x: 320
@@ -523,7 +523,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_20
+      name: spelldown7
       rect:
         serializedVersion: 2
         x: 384
@@ -544,7 +544,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_21
+      name: spellright1
       rect:
         serializedVersion: 2
         x: 0
@@ -565,7 +565,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_22
+      name: spellright2
       rect:
         serializedVersion: 2
         x: 64
@@ -586,7 +586,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_23
+      name: spellright3
       rect:
         serializedVersion: 2
         x: 128
@@ -607,7 +607,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_24
+      name: spellright4
       rect:
         serializedVersion: 2
         x: 192
@@ -628,7 +628,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_25
+      name: spellright5
       rect:
         serializedVersion: 2
         x: 256
@@ -649,7 +649,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,7 +662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_26
+      name: spellright6
       rect:
         serializedVersion: 2
         x: 320
@@ -670,7 +670,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -683,7 +683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_27
+      name: spellright7
       rect:
         serializedVersion: 2
         x: 384
@@ -691,7 +691,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -704,7 +704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_28
+      name: thrustup1
       rect:
         serializedVersion: 2
         x: 0
@@ -712,7 +712,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -725,7 +725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_29
+      name: thrustup2
       rect:
         serializedVersion: 2
         x: 64
@@ -733,7 +733,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -746,7 +746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_30
+      name: thrustup3
       rect:
         serializedVersion: 2
         x: 128
@@ -754,7 +754,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -767,7 +767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_31
+      name: thrustup4
       rect:
         serializedVersion: 2
         x: 192
@@ -775,7 +775,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -788,7 +788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_32
+      name: thrustup5
       rect:
         serializedVersion: 2
         x: 256
@@ -796,7 +796,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -809,7 +809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_33
+      name: thrustup6
       rect:
         serializedVersion: 2
         x: 320
@@ -817,7 +817,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -830,7 +830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_34
+      name: thrustup7
       rect:
         serializedVersion: 2
         x: 384
@@ -838,7 +838,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -851,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_35
+      name: thrustup8
       rect:
         serializedVersion: 2
         x: 448
@@ -859,7 +859,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -872,7 +872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_36
+      name: thrustleft1
       rect:
         serializedVersion: 2
         x: 0
@@ -880,7 +880,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_37
+      name: thrustleft2
       rect:
         serializedVersion: 2
         x: 64
@@ -901,7 +901,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -914,7 +914,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_38
+      name: thrustleft3
       rect:
         serializedVersion: 2
         x: 128
@@ -922,7 +922,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -935,7 +935,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_39
+      name: thrustleft4
       rect:
         serializedVersion: 2
         x: 192
@@ -943,7 +943,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -956,7 +956,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_40
+      name: thrustleft5
       rect:
         serializedVersion: 2
         x: 256
@@ -964,7 +964,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_41
+      name: thrustleft6
       rect:
         serializedVersion: 2
         x: 320
@@ -985,7 +985,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -998,7 +998,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_42
+      name: thrustleft7
       rect:
         serializedVersion: 2
         x: 384
@@ -1006,7 +1006,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1019,7 +1019,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_43
+      name: thrustleft8
       rect:
         serializedVersion: 2
         x: 448
@@ -1027,7 +1027,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1040,7 +1040,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_44
+      name: thrustdown1
       rect:
         serializedVersion: 2
         x: 0
@@ -1048,7 +1048,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1061,7 +1061,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_45
+      name: thrustdown2
       rect:
         serializedVersion: 2
         x: 64
@@ -1069,7 +1069,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1082,7 +1082,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_46
+      name: thrustdown3
       rect:
         serializedVersion: 2
         x: 128
@@ -1090,7 +1090,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1103,7 +1103,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_47
+      name: thrustdown4
       rect:
         serializedVersion: 2
         x: 192
@@ -1111,7 +1111,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1124,7 +1124,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_48
+      name: thrustdown5
       rect:
         serializedVersion: 2
         x: 256
@@ -1132,7 +1132,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1145,7 +1145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_49
+      name: thrustdown6
       rect:
         serializedVersion: 2
         x: 320
@@ -1153,7 +1153,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1166,7 +1166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_50
+      name: thrustdown7
       rect:
         serializedVersion: 2
         x: 384
@@ -1174,7 +1174,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1187,7 +1187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_51
+      name: thrustdown8
       rect:
         serializedVersion: 2
         x: 448
@@ -1195,7 +1195,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1208,7 +1208,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_52
+      name: thrustright1
       rect:
         serializedVersion: 2
         x: 0
@@ -1216,7 +1216,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1229,7 +1229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_53
+      name: thrustright2
       rect:
         serializedVersion: 2
         x: 64
@@ -1237,7 +1237,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1250,7 +1250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_54
+      name: thrustright3
       rect:
         serializedVersion: 2
         x: 128
@@ -1258,7 +1258,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1271,7 +1271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_55
+      name: thrustright4
       rect:
         serializedVersion: 2
         x: 192
@@ -1279,7 +1279,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1292,7 +1292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_56
+      name: thrustright5
       rect:
         serializedVersion: 2
         x: 256
@@ -1300,7 +1300,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1313,7 +1313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_57
+      name: thrustright6
       rect:
         serializedVersion: 2
         x: 320
@@ -1321,7 +1321,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1334,7 +1334,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_58
+      name: thrustright7
       rect:
         serializedVersion: 2
         x: 384
@@ -1342,7 +1342,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1355,7 +1355,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_59
+      name: thrustright8
       rect:
         serializedVersion: 2
         x: 448
@@ -1363,7 +1363,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1376,7 +1376,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_60
+      name: walkup1
       rect:
         serializedVersion: 2
         x: 0
@@ -1384,7 +1384,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1397,7 +1397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_61
+      name: walkup2
       rect:
         serializedVersion: 2
         x: 64
@@ -1405,7 +1405,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1418,7 +1418,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_62
+      name: walkup3
       rect:
         serializedVersion: 2
         x: 128
@@ -1426,7 +1426,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1439,7 +1439,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_63
+      name: walkup4
       rect:
         serializedVersion: 2
         x: 192
@@ -1447,7 +1447,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1460,7 +1460,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_64
+      name: walkup5
       rect:
         serializedVersion: 2
         x: 256
@@ -1468,7 +1468,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1481,7 +1481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_65
+      name: walkup6
       rect:
         serializedVersion: 2
         x: 320
@@ -1489,7 +1489,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1502,7 +1502,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_66
+      name: walkup7
       rect:
         serializedVersion: 2
         x: 384
@@ -1510,7 +1510,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1523,7 +1523,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_67
+      name: walkup8
       rect:
         serializedVersion: 2
         x: 448
@@ -1531,7 +1531,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1544,7 +1544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_68
+      name: walkup9
       rect:
         serializedVersion: 2
         x: 512
@@ -1552,7 +1552,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1565,7 +1565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_69
+      name: walkleft1
       rect:
         serializedVersion: 2
         x: 0
@@ -1573,7 +1573,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1586,7 +1586,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_70
+      name: walkleft2
       rect:
         serializedVersion: 2
         x: 64
@@ -1594,7 +1594,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1607,7 +1607,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_71
+      name: walkleft3
       rect:
         serializedVersion: 2
         x: 128
@@ -1615,7 +1615,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1628,7 +1628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_72
+      name: walkleft4
       rect:
         serializedVersion: 2
         x: 192
@@ -1636,7 +1636,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1649,7 +1649,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_73
+      name: walkleft5
       rect:
         serializedVersion: 2
         x: 256
@@ -1657,7 +1657,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1670,7 +1670,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_74
+      name: walkleft6
       rect:
         serializedVersion: 2
         x: 320
@@ -1678,7 +1678,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1691,7 +1691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_75
+      name: walkleft7
       rect:
         serializedVersion: 2
         x: 384
@@ -1699,7 +1699,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1712,7 +1712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_76
+      name: walkleft8
       rect:
         serializedVersion: 2
         x: 448
@@ -1720,7 +1720,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1733,7 +1733,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_77
+      name: walkleft9
       rect:
         serializedVersion: 2
         x: 512
@@ -1741,7 +1741,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1754,49 +1754,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_78
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f2d1be28682729478873d4ac3427dbc
-      internalID: 1281154981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashina_79
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 640
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75fbbecb44dba364b879b5a9fa2afd83
-      internalID: -880375449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ashina_80
+      name: walkdown3
       rect:
         serializedVersion: 2
         x: 128
@@ -1804,7 +1762,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1817,7 +1775,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_81
+      name: walkdown4
       rect:
         serializedVersion: 2
         x: 192
@@ -1825,7 +1783,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1838,7 +1796,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_82
+      name: walkdown5
       rect:
         serializedVersion: 2
         x: 256
@@ -1846,7 +1804,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1859,7 +1817,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_83
+      name: walkdown6
       rect:
         serializedVersion: 2
         x: 320
@@ -1867,7 +1825,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1880,7 +1838,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_84
+      name: walkdown7
       rect:
         serializedVersion: 2
         x: 384
@@ -1888,7 +1846,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1901,7 +1859,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_85
+      name: walkdown8
       rect:
         serializedVersion: 2
         x: 448
@@ -1909,7 +1867,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1922,7 +1880,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_86
+      name: walkdown9
       rect:
         serializedVersion: 2
         x: 512
@@ -1930,7 +1888,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1943,7 +1901,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_87
+      name: walkright1
       rect:
         serializedVersion: 2
         x: 0
@@ -1951,7 +1909,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1964,7 +1922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_88
+      name: walkright2
       rect:
         serializedVersion: 2
         x: 64
@@ -1972,7 +1930,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1985,7 +1943,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_89
+      name: walkright3
       rect:
         serializedVersion: 2
         x: 128
@@ -1993,7 +1951,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2006,7 +1964,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_90
+      name: walkright4
       rect:
         serializedVersion: 2
         x: 192
@@ -2014,7 +1972,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2027,7 +1985,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_91
+      name: walkright5
       rect:
         serializedVersion: 2
         x: 256
@@ -2035,7 +1993,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2048,7 +2006,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_92
+      name: walkright6
       rect:
         serializedVersion: 2
         x: 320
@@ -2056,7 +2014,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2069,7 +2027,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_93
+      name: walkright7
       rect:
         serializedVersion: 2
         x: 384
@@ -2077,7 +2035,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2090,7 +2048,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_94
+      name: walkright8
       rect:
         serializedVersion: 2
         x: 448
@@ -2098,7 +2056,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2111,7 +2069,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_95
+      name: walkright9
       rect:
         serializedVersion: 2
         x: 512
@@ -2119,7 +2077,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2132,7 +2090,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_96
+      name: slashup1
       rect:
         serializedVersion: 2
         x: 0
@@ -2140,7 +2098,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2153,7 +2111,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_97
+      name: slashup2
       rect:
         serializedVersion: 2
         x: 64
@@ -2161,7 +2119,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2174,7 +2132,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_98
+      name: slashup3
       rect:
         serializedVersion: 2
         x: 128
@@ -2182,7 +2140,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2195,7 +2153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_99
+      name: slashup4
       rect:
         serializedVersion: 2
         x: 192
@@ -2203,7 +2161,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2216,7 +2174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_100
+      name: slashup5
       rect:
         serializedVersion: 2
         x: 256
@@ -2224,7 +2182,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2237,7 +2195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_101
+      name: slashup6
       rect:
         serializedVersion: 2
         x: 320
@@ -2245,7 +2203,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2258,7 +2216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_102
+      name: slashleft1
       rect:
         serializedVersion: 2
         x: 0
@@ -2266,7 +2224,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2279,7 +2237,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_103
+      name: slashleft2
       rect:
         serializedVersion: 2
         x: 64
@@ -2287,7 +2245,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2300,7 +2258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_104
+      name: slashleft3
       rect:
         serializedVersion: 2
         x: 128
@@ -2308,7 +2266,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2321,7 +2279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_105
+      name: slashleft4
       rect:
         serializedVersion: 2
         x: 192
@@ -2329,7 +2287,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2342,7 +2300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_106
+      name: slashleft5
       rect:
         serializedVersion: 2
         x: 256
@@ -2350,7 +2308,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2363,7 +2321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_107
+      name: slashleft6
       rect:
         serializedVersion: 2
         x: 320
@@ -2371,7 +2329,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2384,7 +2342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_108
+      name: slashdown1
       rect:
         serializedVersion: 2
         x: 0
@@ -2392,7 +2350,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2405,7 +2363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_109
+      name: slashdown2
       rect:
         serializedVersion: 2
         x: 64
@@ -2413,7 +2371,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2426,7 +2384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_110
+      name: slashdown3
       rect:
         serializedVersion: 2
         x: 128
@@ -2434,7 +2392,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2447,7 +2405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_111
+      name: slashdown4
       rect:
         serializedVersion: 2
         x: 192
@@ -2455,7 +2413,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2468,7 +2426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_112
+      name: slashdown5
       rect:
         serializedVersion: 2
         x: 256
@@ -2476,7 +2434,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2489,7 +2447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_113
+      name: slashdown6
       rect:
         serializedVersion: 2
         x: 320
@@ -2497,7 +2455,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2510,7 +2468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_114
+      name: slashright1
       rect:
         serializedVersion: 2
         x: 0
@@ -2518,7 +2476,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2531,7 +2489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_115
+      name: slashright2
       rect:
         serializedVersion: 2
         x: 64
@@ -2539,7 +2497,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2552,7 +2510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_116
+      name: slashright3
       rect:
         serializedVersion: 2
         x: 128
@@ -2560,7 +2518,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2573,7 +2531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_117
+      name: slashright4
       rect:
         serializedVersion: 2
         x: 192
@@ -2581,7 +2539,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2594,7 +2552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_118
+      name: slashright5
       rect:
         serializedVersion: 2
         x: 256
@@ -2602,7 +2560,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2615,7 +2573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_119
+      name: slashright6
       rect:
         serializedVersion: 2
         x: 320
@@ -2623,7 +2581,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2644,7 +2602,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2665,7 +2623,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2686,7 +2644,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2707,7 +2665,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2728,7 +2686,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2749,7 +2707,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2770,7 +2728,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2791,7 +2749,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2812,7 +2770,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2833,7 +2791,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2854,7 +2812,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2875,7 +2833,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2896,7 +2854,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2917,7 +2875,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2938,7 +2896,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2959,7 +2917,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2980,7 +2938,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3001,7 +2959,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3022,7 +2980,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3043,7 +3001,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3064,7 +3022,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3085,7 +3043,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3106,7 +3064,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3127,7 +3085,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3148,7 +3106,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3169,7 +3127,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3190,7 +3148,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3211,7 +3169,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3232,7 +3190,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3253,7 +3211,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3274,7 +3232,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3295,7 +3253,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3316,7 +3274,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3337,7 +3295,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3358,7 +3316,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3379,7 +3337,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3400,7 +3358,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3421,7 +3379,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3442,7 +3400,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3463,7 +3421,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3484,7 +3442,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3505,7 +3463,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3526,7 +3484,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3547,7 +3505,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3568,7 +3526,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3589,7 +3547,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3610,7 +3568,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3631,7 +3589,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3652,7 +3610,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3673,7 +3631,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3694,7 +3652,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3715,7 +3673,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3728,7 +3686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_172
+      name: hurt1
       rect:
         serializedVersion: 2
         x: 0
@@ -3736,7 +3694,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3749,7 +3707,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_173
+      name: hurt2
       rect:
         serializedVersion: 2
         x: 64
@@ -3757,7 +3715,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3770,7 +3728,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_174
+      name: hurt3
       rect:
         serializedVersion: 2
         x: 128
@@ -3778,7 +3736,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3791,7 +3749,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_175
+      name: hurt4
       rect:
         serializedVersion: 2
         x: 192
@@ -3799,7 +3757,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3812,7 +3770,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_176
+      name: hurt5
       rect:
         serializedVersion: 2
         x: 256
@@ -3820,7 +3778,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3833,7 +3791,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ashina_177
+      name: hurt6
       rect:
         serializedVersion: 2
         x: 320
@@ -3841,7 +3799,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3849,6 +3807,48 @@ TextureImporter:
       bones: []
       spriteID: 488829006cb9efa49a1ff28b6b63707d
       internalID: -517167823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkdown1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad52452b998a5484f990d7212ad31024
+      internalID: 1281154981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkdown2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cace6f78256c746b5af5da204b4801
+      internalID: -880375449
       vertices: []
       indices: 
       edges: []
@@ -3864,184 +3864,184 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ashina_12: 1289511782
-      ashina_63: -1508790504
+      hurt6: -517167823
+      walkleft1: -1763287240
       ashina_165: 46811652
-      ashina_60: 1440472494
+      spellup3: -338835647
+      thrustdown2: -2024674728
+      slashup5: -301000175
       ashina_155: -2143506278
-      ashina_52: 1145147717
-      ashina_6: -329808490
-      ashina_54: -905842595
-      ashina_139: 1094303165
+      thrustleft4: 1997990299
+      spellright7: -1295172400
+      slashleft3: -1678296687
       ashina_170: -1072863595
-      ashina_30: 1252937644
-      ashina_49: -538970591
-      ashina_50: 841367118
-      ashina_94: -1394555365
-      ashina_175: -2134242050
-      ashina_73: 1660178706
-      ashina_14: -1073174867
-      ashina_92: 1509613407
-      ashina_99: -621605206
-      ashina_19: 479362173
-      ashina_58: -1266675983
+      ashina_139: 1094303165
+      slashdown1: -239853639
+      walkdown1: 1281154981
+      spellleft1: -1729094298
+      walkright3: 28052322
+      slashleft2: 1028425279
+      walkdown4: 2137209396
       ashina_145: -1734736244
-      ashina_17: -649232551
-      ashina_86: 631119951
-      ashina_79: -880375449
-      ashina_38: 297523667
-      ashina_68: 106104106
-      ashina_28: -1100730780
-      ashina_61: -1062453716
+      hurt1: -1615883790
+      slashright6: 1765330068
+      walkleft8: 377676698
+      walkdown5: -44614308
+      thrustup7: -1216180135
+      walkup8: 106104106
+      spelldown3: 1862144770
+      walkdown6: 462611066
       ashina_154: 1587780296
+      thrustup2: -164315748
+      slashright4: 834074349
       ashina_137: 395730155
-      ashina_51: 1328853885
-      ashina_85: -1484711155
+      thrustdown4: -538970591
+      spelldown6: 479362173
       ashina_149: -1894735427
-      ashina_70: -1763287240
       ashina_138: -322902099
       ashina_167: 741716080
-      ashina_69: -413979754
-      ashina_13: 235521563
+      walkright1: 1607040521
+      slashup2: -88888571
+      walkleft5: -252644110
       ashina_158: 1926507510
-      ashina_76: 377676698
+      slashright2: 1153439292
+      thrustright2: -1142271259
       ashina_123: 748100219
       ashina_156: -1816978711
+      hurt5: 928913852
+      thrustup5: -1912129376
       ashina_163: -1754974216
+      thrustup6: -1814411197
+      slashup1: -1158984971
+      walkleft3: -651368452
+      thrustleft6: 482378711
+      spellleft6: 1289511782
       ashina_162: 1953180294
-      ashina_91: 114893564
-      ashina_37: 25376596
-      ashina_48: 1837854885
-      ashina_159: -1718392129
-      ashina_151: -746468429
-      ashina_131: 563812869
-      ashina_173: 920858565
-      ashina_104: -1678296687
-      ashina_47: -2024674728
-      ashina_148: 1270151265
-      ashina_41: 1997990299
-      ashina_171: -853579319
-      ashina_39: 1720407794
-      ashina_65: 2048546580
-      ashina_34: -1216180135
-      ashina_11: 710879372
-      ashina_136: 1308665510
-      ashina_45: -1719938966
-      ashina_174: -1056639182
-      ashina_176: 928913852
-      ashina_144: 1579462170
-      ashina_106: -388178262
-      ashina_177: -517167823
-      ashina_121: 1346845522
-      ashina_46: 458022832
-      ashina_53: 165157534
-      ashina_64: -481687790
-      ashina_31: 1243751554
-      ashina_7: -1729094298
-      ashina_97: -88888571
-      ashina_81: 2137209396
-      ashina_40: 915313074
-      ashina_25: 846779477
-      ashina_26: 1306507583
-      ashina_133: -727520252
-      ashina_169: 1323936538
-      ashina_15: 1658624471
-      ashina_10: -2061237652
-      ashina_23: 1423413808
-      ashina_172: -1615883790
-      ashina_115: 1153439292
-      ashina_117: 834074349
-      ashina_147: 1106637499
-      ashina_55: -1142271259
-      ashina_18: 19867251
-      ashina_77: -2007349968
-      ashina_103: 1028425279
-      ashina_100: -301000175
-      ashina_57: -1292789981
-      ashina_102: -1962041978
-      ashina_9: -1762129391
-      ashina_109: 1429590551
-      ashina_112: -2018930281
-      ashina_96: -1158984971
-      ashina_4: 1811622912
-      ashina_127: -99375203
-      ashina_129: 1494690624
-      ashina_161: -395447784
-      ashina_78: 1281154981
-      ashina_80: -49666981
-      ashina_134: -1517057127
-      ashina_143: 1537214749
-      ashina_110: 1403187745
-      ashina_27: -1295172400
-      ashina_20: 1118053479
-      ashina_29: -164315748
-      ashina_44: -586080635
-      ashina_83: 462611066
-      ashina_132: 1146707663
-      ashina_90: 28052322
-      ashina_2: -338835647
-      ashina_43: 482378711
-      ashina_135: -1523771905
-      ashina_71: 1788887273
-      ashina_146: 26500835
-      ashina_108: -239853639
-      ashina_74: -252644110
-      ashina_89: 132366158
-      ashina_1: 1905711430
-      ashina_130: 142063176
-      ashina_33: -1814411197
-      ashina_98: -316884367
-      ashina_95: 1886515629
-      ashina_166: 694855113
-      ashina_120: 65045230
-      ashina_84: 1526094905
-      ashina_118: -2078423016
-      ashina_8: 1845242204
-      ashina_16: 1862144770
-      ashina_75: 381450318
-      ashina_62: 1900258668
-      ashina_116: -635526155
-      ashina_124: 1375301792
-      ashina_35: 191860901
-      ashina_153: 1862355496
-      ashina_164: -805027443
-      ashina_3: 1076004182
-      ashina_113: 1615198882
-      ashina_82: -44614308
-      ashina_42: 859414401
-      ashina_119: 1765330068
-      ashina_36: 401913064
-      ashina_87: -1330449422
-      ashina_107: 385219983
-      ashina_122: -1339917295
-      ashina_22: -46535022
-      ashina_56: -624875830
-      ashina_32: -1912129376
-      ashina_140: -945431258
-      ashina_125: 1442801548
-      ashina_101: -1456994933
-      ashina_0: -1743469423
-      ashina_141: -424637893
-      ashina_59: -2077368809
-      ashina_72: -651368452
-      ashina_21: 647227492
-      ashina_142: -1604404975
-      ashina_160: -686727351
-      ashina_152: 1765724547
-      ashina_24: -2052012190
-      ashina_150: 1339986861
-      ashina_5: -1664088421
-      ashina_157: -503023583
-      ashina_168: 488807713
-      ashina_66: 1344898262
-      ashina_105: 885653647
-      ashina_111: 1534132202
-      ashina_128: 875272214
-      ashina_114: -1628604208
-      ashina_88: 1607040521
-      ashina_67: 1790225901
-      ashina_93: 925628288
-      ashina_126: 1257139826
+      walkup3: 915313074
+      ashina_159: 1306507583
+      spellright6: -481687790
+      walkleft7: 1579462170
+      thrustleft3: -746468429
+      ashina_151: 1845242204
+      spellleft2: 563812869
+      ashina_131: 920858565
+      slashright5: -2078423016
+      walkright5: 114893564
+      walkleft2: 1270151265
+      hurt2: 920858565
+      ashina_148: -853579319
+      ashina_171: 1118053479
+      spelldown5: -905842595
+      thrustright1: 1308665510
+      spelldown7: 165157534
+      thrustdown8: -1062453716
+      thrustright8: -1056639182
+      ashina_136: 928913852
+      slashup3: -316884367
+      slashright3: -635526155
+      thrustleft8: -388178262
+      ashina_144: -517167823
+      walkup7: 1811622912
+      slashdown3: 1403187745
+      ashina_121: -88888571
+      spellleft4: -2061237652
+      slashleft4: 885653647
+      spellup2: 1790225901
+      slashdown6: 1615198882
+      hurt4: -2134242050
+      thrustdown1: -413979754
+      walkup9: -727520252
+      spellup5: -624875830
+      thrustright3: 1323936538
+      ashina_133: 1658624471
+      ashina_169: -1615883790
+      spelldown2: 846779477
+      slashdown5: -2018930281
+      walkright4: 114893564
+      spellright5: 1028425279
+      ashina_147: -301000175
+      thrustup3: 1106637499
+      walkright7: 925628288
+      walkup2: 297523667
+      thrustleft1: -1962041978
+      walkright8: -1394555365
+      walkright9: 1886515629
+      spellleft7: -1743469423
+      slashleft6: 385219983
+      thrustup1: 1429590551
+      spellup1: -2018930281
+      spellleft3: -99375203
+      thrustright7: 1494690624
+      ashina_127: -395447784
+      ashina_129: -1517057127
+      ashina_161: 1537214749
+      ashina_134: -586080635
+      thrustleft7: 1403187745
+      ashina_143: 1146707663
+      ashina_132: 859414401
+      thrustleft5: 1328853885
+      thrustdown6: 26500835
+      thrustup8: 1837854885
+      thrustdown3: 1145147717
+      thrustdown7: -649232551
+      ashina_135: 1788887273
+      ashina_146: -239853639
+      spelldown4: 381450318
+      walkleft6: -252644110
+      spellright2: 132366158
+      walkdown9: 1900258668
+      walkup1: 1243751554
+      ashina_130: -316884367
+      thrustup4: 1526094905
+      walkdown7: 694855113
+      ashina_166: -2078423016
+      ashina_120: 1344898262
+      walkup6: 381450318
+      slashup4: -621605206
+      walkright6: 1509613407
+      ashina_124: -880375449
+      walkdown2: -1484711155
+      thrustdown5: -805027443
+      ashina_153: 1615198882
+      ashina_164: 1765330068
+      walkdown8: 1076004182
+      spellup4: 1423413808
+      hurt3: -1056639182
+      ashina_122: 1720407794
+      thrustleft2: 1442801548
+      spellright3: -49666981
+      slashdown4: 1534132202
+      ashina_140: -1456994933
+      ashina_125: 710879372
+      walkdown3: -2052012190
+      spellleft5: 647227492
+      spellright4: -651368452
+      ashina_141: -1604404975
+      spellright1: 488807713
+      ashina_152: 1534132202
+      spellup7: 1765724547
+      ashina_160: 1339986861
+      ashina_142: -503023583
+      ashina_150: -329808490
+      ashina_168: 1344898262
+      ashina_157: 2048546580
+      walkup4: -1292789981
+      slashleft1: -1962041978
+      thrustright4: 875272214
+      walkright2: 132366158
+      slashleft5: -388178262
+      thrustright5: 2048546580
+      walkup5: -1664088421
+      ashina_128: 1607040521
+      spellup6: -1073174867
+      walkleft4: -2077368809
+      slashdown2: 1429590551
+      slashup6: -1456994933
+      thrustright6: -2007349968
+      walkleft9: 401913064
+      slashright1: -1628604208
+      ashina_126: 25376596
+      spelldown1: -1330449422
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

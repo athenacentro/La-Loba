@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b65cdac3de432343b1ef1f88728e12c, type: 3}
+  m_Name: Raccoons
+  m_EditorClassIdentifier: 
+  name: Raccoons
+  description: 
+  frontSprite: {fileID: 145287850, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
+  backSprite: {fileID: -720849382, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
+  type1: 1
+  energy: 5
+  attack: 3
+  defense: 3
+  speed: 2
+  spAttack: 4
+  spDefense: 4

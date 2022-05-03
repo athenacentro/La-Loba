@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerView : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
+    [SerializeField] private LayerMask solidObjectsLayer;
 
     private bool isMoving;
     private Vector2 input;
@@ -40,7 +41,11 @@ public class PlayerView : MonoBehaviour
                 targetPos.x += input.x;
                 targetPos.y += input.y;
 
-                StartCoroutine(Move(targetPos));
+                if (IsWalkable(targetPos))
+                {
+                    StartCoroutine(Move(targetPos));
+                }
+                
             }
         }
 
@@ -63,4 +68,13 @@ public class PlayerView : MonoBehaviour
         isMoving = false;
     }
 
+    private bool IsWalkable(Vector3 targetPos)
+    {
+        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
+        {
+            return false;
+        }
+
+        return true;
+    }
 }

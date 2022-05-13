@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b65cdac3de432343b1ef1f88728e12c, type: 3}
   m_Name: Raccoons
   m_EditorClassIdentifier: 
-  name: Raccoons
+  enemyName: 
   description: 
   frontSprite: {fileID: 145287850, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
   backSprite: {fileID: -720849382, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
@@ -23,3 +23,10 @@ MonoBehaviour:
   speed: 2
   spAttack: 4
   spDefense: 4
+  learnablesMoves:
+  - moveBase: {fileID: 11400000, guid: 7d9933d942550ca47972cc67edc15ac6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 6aac1f80ae4798847a56c06da940bda1, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c0f028866472e214ead509e576902c76, type: 2}
+    level: 1

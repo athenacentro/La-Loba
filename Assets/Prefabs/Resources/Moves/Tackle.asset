@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: 
   description: 
-  type: 0
+  type: 1
   power: 40
   accuracy: 80
-  pp: 20
+  pp: 10

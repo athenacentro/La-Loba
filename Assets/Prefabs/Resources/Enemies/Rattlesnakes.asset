@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b65cdac3de432343b1ef1f88728e12c, type: 3}
   m_Name: Rattlesnakes
   m_EditorClassIdentifier: 
-  name: Rattlesnakes
+  enemyName: 
   description: 
   frontSprite: {fileID: 2138600555, guid: 2b573306a80a0014baa4da98ecc708d3, type: 3}
   backSprite: {fileID: -1715997636, guid: 2b573306a80a0014baa4da98ecc708d3, type: 3}
@@ -23,3 +23,10 @@ MonoBehaviour:
   speed: 25
   spAttack: 25
   spDefense: 30
+  learnablesMoves:
+  - moveBase: {fileID: 11400000, guid: 7d9933d942550ca47972cc67edc15ac6, type: 2}
+    level: 2
+  - moveBase: {fileID: 11400000, guid: 6aac1f80ae4798847a56c06da940bda1, type: 2}
+    level: 2
+  - moveBase: {fileID: 0}
+    level: 0

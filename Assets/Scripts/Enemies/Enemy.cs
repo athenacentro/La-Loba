@@ -7,10 +7,23 @@ public class Enemy
     EnemyBase _base;
     int level;
 
+
+    public List<Move> Moves { get; set; }
+
     public Enemy(EnemyBase eBase, int eLevel)
     {
         _base = eBase;
         level = eLevel;
+
+        Moves = new List<Move>();
+        foreach (var move in _base.LearnableMoves)
+        {
+            if (move.Level <= level)
+                Moves.Add(new Move(move.Base));
+
+            if (Moves.Count >= 3)
+                break;
+        }
     }
 
     public int Energy

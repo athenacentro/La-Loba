@@ -14,7 +14,7 @@ public class EnemyBase : ScriptableObject
     [SerializeField] Sprite frontSprite;
     [SerializeField] Sprite backSprite;
 
-    [SerializeField] EnemyType type1;
+    [SerializeField] PowerType type1;
 
     [SerializeField] int energy;
     [SerializeField] int attack;
@@ -22,7 +22,8 @@ public class EnemyBase : ScriptableObject
     [SerializeField] int speed;
     [SerializeField] int spAttack;
     [SerializeField] int spDefense;
-    
+
+    [SerializeField] List<LearnableMove> learnablesMoves;
 
     public string Name
     {
@@ -44,7 +45,7 @@ public class EnemyBase : ScriptableObject
         get { return backSprite; }
     }
 
-    public EnemyType Type1
+    public PowerType Type1
     {
         get { return type1; }
     }
@@ -78,13 +79,34 @@ public class EnemyBase : ScriptableObject
     {
         get { return spDefense; }
     }
+
+    public List<LearnableMove> LearnableMoves
+    {
+        get { return learnablesMoves; }
+    }
 }
 
-public enum EnemyType
+[System.Serializable]
+
+public class LearnableMove
+{
+    [SerializeField] MoveBase moveBase;
+    [SerializeField] int level;
+
+    public MoveBase Base
+    {
+        get { return moveBase; }
+    }
+
+    public int Level
+    {
+        get { return level; }
+    }
+}
+
+public enum PowerType
 {
     None,
-    Raccoons,
-    Rattlesnakes,
-    Crows,
-    Wolves
+    Normal,
+    Special
 }

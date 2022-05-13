@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Enemy", menuName = "Enemy/Create New Enemy")]
 public class EnemyBase : ScriptableObject
 {
-    [SerializeField] string name;
+    [SerializeField] string enemyName;
 
     [TextArea]
     [SerializeField] string description;

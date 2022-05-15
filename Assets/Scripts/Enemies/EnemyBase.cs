@@ -11,8 +11,8 @@ public class EnemyBase : ScriptableObject
     [TextArea]
     [SerializeField] string description;
 
-    [SerializeField] Sprite frontSprite;
-    [SerializeField] Sprite backSprite;
+    [SerializeField] Sprite leftSprite;
+    [SerializeField] Sprite rightSprite;
 
     [SerializeField] PowerType type1;
 
@@ -35,14 +35,14 @@ public class EnemyBase : ScriptableObject
         get { return description;  }
     }
 
-    public Sprite FrontSprite
+    public Sprite LeftSprite
     {
-        get { return frontSprite; }
+        get { return leftSprite; }
     }
 
-    public Sprite BackSprite
+    public Sprite RightSprite
     {
-        get { return backSprite; }
+        get { return rightSprite; }
     }
 
     public PowerType Type1

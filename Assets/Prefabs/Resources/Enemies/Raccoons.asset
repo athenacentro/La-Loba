@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: 
   description: 
-  frontSprite: {fileID: 145287850, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
-  backSprite: {fileID: -720849382, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
+  leftSprite: {fileID: 1702303914, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
+  rightSprite: {fileID: 2068082138, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
   type1: 1
   energy: 5
   attack: 3

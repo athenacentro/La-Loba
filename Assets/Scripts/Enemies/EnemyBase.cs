@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "Enemy", menuName = "Enemy/Create New Enemy")]
+[CreateAssetMenu(fileName = "Character", menuName = "Character/Create New Enemy")]
 public class EnemyBase : ScriptableObject
 {
     [SerializeField] string enemyName;
@@ -11,8 +11,8 @@ public class EnemyBase : ScriptableObject
     [TextArea]
     [SerializeField] string description;
 
-    [SerializeField] Sprite leftSprite;
-    [SerializeField] Sprite rightSprite;
+    [SerializeField] Sprite leftFacingSprite;
+    [SerializeField] Sprite rightFacingSprite;
 
     [SerializeField] PowerType type1;
 
@@ -23,7 +23,7 @@ public class EnemyBase : ScriptableObject
     [SerializeField] int spAttack;
     [SerializeField] int spDefense;
 
-    [SerializeField] List<LearnableMove> learnablesMoves;
+    [SerializeField] List<EnemyLearnableMove> learnablesMoves;
 
     public string Name
     {
@@ -32,17 +32,17 @@ public class EnemyBase : ScriptableObject
 
     public string Description
     {
-        get { return description;  }
+        get { return description; }
     }
 
-    public Sprite LeftSprite
+    public Sprite LeftFacingSprite
     {
-        get { return leftSprite; }
+        get { return leftFacingSprite; }
     }
 
-    public Sprite RightSprite
+    public Sprite RightFacingSprite
     {
-        get { return rightSprite; }
+        get { return rightFacingSprite; }
     }
 
     public PowerType Type1
@@ -80,7 +80,7 @@ public class EnemyBase : ScriptableObject
         get { return spDefense; }
     }
 
-    public List<LearnableMove> LearnableMoves
+    public List<EnemyLearnableMove> LearnableMoves
     {
         get { return learnablesMoves; }
     }
@@ -88,7 +88,7 @@ public class EnemyBase : ScriptableObject
 
 [System.Serializable]
 
-public class LearnableMove
+public class EnemyLearnableMove
 {
     [SerializeField] MoveBase moveBase;
     [SerializeField] int level;

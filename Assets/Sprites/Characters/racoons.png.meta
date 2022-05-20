@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2236,8 +2236,8 @@ TextureImporter:
       racoons_46: 1497778491
       racoons_47: 1147978022
       racoons_65: -739391274
-      racoons_53: -298159323
       racoons_52: 1817571763
+      racoons_53: -298159323
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

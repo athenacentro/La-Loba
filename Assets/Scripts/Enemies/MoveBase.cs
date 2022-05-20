@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Move", menuName = "Enemy/Create New Move")]
+[CreateAssetMenu(fileName = "Move", menuName = "Character/Create New Move")]
 public class MoveBase : ScriptableObject
 {
-    [SerializeField] string enemyName;
+    [SerializeField] string characterName;
 
     [TextArea]
     [SerializeField] string description;
@@ -17,7 +17,7 @@ public class MoveBase : ScriptableObject
 
     public string Name
     {
-        get { return enemyName; }
+        get { return characterName; }
     }
 
     public string Description

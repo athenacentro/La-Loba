@@ -14,8 +14,10 @@ public class EnemyBase : ScriptableObject
     [SerializeField] Sprite leftFacingSprite;
     [SerializeField] Sprite rightFacingSprite;
 
-    [SerializeField] PowerType type1;
+    [SerializeField] EnemyPowerType type1;
+    [SerializeField] EnemyPowerType type2;
 
+    //Base Stats
     [SerializeField] int energy;
     [SerializeField] int attack;
     [SerializeField] int defense;
@@ -45,9 +47,14 @@ public class EnemyBase : ScriptableObject
         get { return rightFacingSprite; }
     }
 
-    public PowerType Type1
+    public EnemyPowerType Type1
     {
         get { return type1; }
+    }
+
+    public EnemyPowerType Type2
+    {
+        get { return type2; }
     }
 
     public int Energy
@@ -104,9 +111,30 @@ public class EnemyLearnableMove
     }
 }
 
-public enum PowerType
+public enum EnemyPowerType /*PokemonType*/
 {
     None,
     Normal,
     Special
+}
+
+public class EnemTypeChart /*TypeChart*/
+{
+    static float[][] chart =
+    {
+        //                  NOR  SPE
+        /*NOR*/ new float[] {1f, 0.5f},
+        /*SPE*/ new float[] {2f, 1f}
+    };
+
+    public static float GetEffectiveness(EnemyPowerType attackType, EnemyPowerType defenseType)
+    {
+        if (attackType == EnemyPowerType.None || defenseType == EnemyPowerType.None)
+            return 1;
+
+        int row = (int)attackType - 1;
+        int col = (int)defenseType - 1;
+
+        return chart[row][col];
+    }
 }

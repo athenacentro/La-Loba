@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: thrust
   description: 
-  type: 1
-  power: 40
+  type1: 1
+  type2: 1
+  power: 20
   accuracy: 40
-  pp: 20
+  pp: 10

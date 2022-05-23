@@ -16,7 +16,8 @@ MonoBehaviour:
   description: 
   leftFacingSprite: {fileID: 401913064, guid: bc8ee2164376eeb4894c7cb492c9462f, type: 3}
   rightFacingSprite: {fileID: 1145147717, guid: bc8ee2164376eeb4894c7cb492c9462f, type: 3}
-  type1: 0
+  type1: 1
+  type2: 0
   energy: 5
   attack: 4
   defense: 4

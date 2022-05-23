@@ -15,6 +15,7 @@ public class CharacterBase : ScriptableObject
     [SerializeField] Sprite rightFacingSprite;
 
     [SerializeField] CharPowerType type1;
+    [SerializeField] CharPowerType type2;
 
     [SerializeField] int energy;
     [SerializeField] int attack;
@@ -48,6 +49,11 @@ public class CharacterBase : ScriptableObject
     public CharPowerType Type1
     {
         get { return type1; }
+    }
+
+    public CharPowerType Type2
+    {
+        get { return type2; }
     }
 
     public int Energy
@@ -104,9 +110,30 @@ public class LearnableMove
     }
 }
 
-public enum CharPowerType
+public enum CharPowerType /*PokemonType*/
 {
     None,
     Normal,
     Special
+}
+
+public class CharTypeChart /*TypeChart*/
+{
+    static float[][] chart =
+    {
+        //                  NOR  SPE
+        /*NOR*/ new float[] {1f, 0.5f},
+        /*SPE*/ new float[] {2f, 1f}
+    };
+
+    public static float GetEffectiveness(CharPowerType attackType, CharPowerType defenseType)
+    {
+        if (attackType == CharPowerType.None || defenseType == CharPowerType.None)
+            return 1;
+
+        int row = (int)attackType - 1;
+        int col = (int)defenseType - 1;
+
+        return chart[row][col];
+    }
 }

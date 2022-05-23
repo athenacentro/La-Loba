@@ -65,12 +65,34 @@ public class BattleSystem : MonoBehaviour
         var move = playerUnit.Character.Moves[currentMove];
         yield return dialogBox.TypeDialog($"{playerUnit.Character.Base.Name} used {move.Base.Name}.");
 
+        playerUnit.PlayAttackAnimation();
+
         yield return new WaitForSeconds(1f);
 
-        bool isFainted = enemyUnit.Enemy.TakeDamage(move, playerUnit.Character);
+        var enemDamageDetails = enemyUnit.Enemy.TakeDamage(move, playerUnit.Character);
         yield return enemyHud.UpdateHPEnemy();
+        //yield return ShowDamageDetails(enemDamageDetails);
 
-        if (isFainted)
+        if (enemDamageDetails.Critical > 1f)
+        {
+            yield return new WaitForSeconds(1f);
+            yield return dialogBox.TypeDialog("A critical hit!");
+        }
+
+        if (enemDamageDetails.TypeEffectiveness > 1f)
+        {
+            yield return new WaitForSeconds(1f);
+            yield return dialogBox.TypeDialog("An effective move!");
+        }
+        else if (enemDamageDetails.TypeEffectiveness < 1f)
+        {
+            yield return new WaitForSeconds(1f);
+            yield return dialogBox.TypeDialog("Hmm...");
+        }
+
+        yield return new WaitForSeconds(1f);
+
+        if (enemDamageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{enemyUnit.Enemy.Base.Name} fainted...");
         }
@@ -87,12 +109,34 @@ public class BattleSystem : MonoBehaviour
         var move = enemyUnit.Enemy.GetRandomMove();
         yield return dialogBox.TypeDialog($"{enemyUnit.Enemy.Base.Name} used {move.Base.Name}.");
 
+        enemyUnit.PlayAttackAnimation();
+
         yield return new WaitForSeconds(1f);
 
-        bool isFainted = playerUnit.Character.TakeDamage(move, enemyUnit.Enemy);
+        var charDamageDetails = playerUnit.Character.TakeDamage(move, enemyUnit.Enemy);
         yield return playerHud.UpdateHPChar();
+        //yield return ShowDamageDetails(charDamageDetails);
 
-        if (isFainted)
+        if (charDamageDetails.Critical > 1f)
+        {
+            yield return new WaitForSeconds(1f);
+            yield return dialogBox.TypeDialog("A critical hit!");
+        }
+
+        if (charDamageDetails.TypeEffectiveness > 1f)
+        {
+            yield return new WaitForSeconds(1f);
+            yield return dialogBox.TypeDialog("An effective move!");
+        }
+        else if (charDamageDetails.TypeEffectiveness < 1f)
+        {
+            yield return new WaitForSeconds(1f);
+            yield return dialogBox.TypeDialog("Hmm...");
+        }
+
+        yield return new WaitForSeconds(1f);
+
+        if (charDamageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{playerUnit.Character.Base.Name} fainted...");
         }
@@ -101,6 +145,47 @@ public class BattleSystem : MonoBehaviour
             PlayerAction();
         }
     }
+
+    //IEnumerator ShowDamageDetails(EnemDamageDetails enemDamageDetails)
+    //{
+
+    //    if (enemDamageDetails.Critical > 1f)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+    //        yield return dialogBox.TypeDialog("A critical hit!");
+    //    }
+
+    //    if (enemDamageDetails.TypeEffectiveness > 1f)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+    //        yield return dialogBox.TypeDialog("An effective move!");
+    //    }
+    //    else if (enemDamageDetails.TypeEffectiveness < 1f)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+    //        yield return dialogBox.TypeDialog("Hmm...");
+    //    }
+    //}
+
+    //IEnumerator ShowDamageDetails(CharDamageDetails charDamageDetails)
+    //{
+    //    if (charDamageDetails.Critical > 1f)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+    //        yield return dialogBox.TypeDialog("A critical hit!");
+    //    }
+
+    //    if (charDamageDetails.TypeEffectiveness > 1f)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+    //        yield return dialogBox.TypeDialog("An effective move!");
+    //    }
+    //    else if (charDamageDetails.TypeEffectiveness < 1f)
+    //    {
+    //        yield return new WaitForSeconds(1f);
+    //        yield return dialogBox.TypeDialog("Hmm...");
+    //    }
+    //}
 
     private void Update()
     {

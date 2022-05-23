@@ -10,7 +10,8 @@ public class MoveBase : ScriptableObject
     [TextArea]
     [SerializeField] string description;
 
-    [SerializeField] PowerType type;
+    [SerializeField] CharPowerType type1;
+    [SerializeField] EnemyPowerType type2;
     [SerializeField] int power;
     [SerializeField] int accuracy;
     [SerializeField] int pp;
@@ -25,9 +26,14 @@ public class MoveBase : ScriptableObject
         get { return description; }
     }
 
-    public PowerType Type
+    public CharPowerType CharType
     {
-        get { return type; }
+        get { return type1; }
+    }
+
+    public EnemyPowerType EnemyType
+    {
+        get { return type2; }
     }
 
     public int Power

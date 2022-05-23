@@ -63,9 +63,24 @@ public class Enemy
         get { return Mathf.FloorToInt((Base.Speed * Level) / 100f) + 10; }
     }
 
-    public bool TakeDamage(Move move, Character attacker)
+    public EnemDamageDetails TakeDamage(Move move, Character attacker)
     {
-        float modifiers = Random.Range(0.85f, 1f);
+        float critical = 1f;
+        if (Random.value * 100f <= 6.25f)
+        {
+            critical = 2f;
+        }
+
+        float type = EnemTypeChart.GetEffectiveness(move.Base.EnemyType, this.Base.Type1) * EnemTypeChart.GetEffectiveness(move.Base.EnemyType, this.Base.Type2);
+
+        var enemDamageDetails = new EnemDamageDetails()
+        {
+            TypeEffectiveness = type,
+            Critical = critical,
+            Fainted = false
+        };
+
+        float modifiers = Random.Range(0.85f, 1f) * type * critical;
         float a = (2 * attacker.Level + 10) / 250f;
         float d = a * move.Base.Power * ((float)attacker.Attack / Defense) + 2;
         int damage = Mathf.FloorToInt(d * modifiers);
@@ -74,15 +89,26 @@ public class Enemy
         if (HP <= 0)
         {
             HP = 0;
-            return true;
+            enemDamageDetails.Fainted = true;
         }
 
-        return false;
+        return enemDamageDetails;
     }
 
     public Move GetRandomMove()
     {
         int r = Random.Range(0, Moves.Count);
         return Moves[r];
+    }
+
+    public class EnemDamageDetails
+    {
+        public bool Fainted { get; set; }
+
+        public float Critical { get; set; }
+
+        public float TypeEffectiveness { get; set; }
+
+
     }
 }

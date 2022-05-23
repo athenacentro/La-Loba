@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: growl
   description: 
-  type: 2
-  power: 0
-  accuracy: 0
-  pp: 0
+  type1: 2
+  type2: 2
+  power: 50
+  accuracy: 50
+  pp: 20

@@ -63,9 +63,24 @@ public class Character
         get { return Mathf.FloorToInt((Base.Speed * Level) / 100f) + 10; }
     }
 
-    public bool TakeDamage(Move move, Enemy attacker)
+    public CharDamageDetails TakeDamage(Move move, Enemy attacker)
     {
-        float modifiers = Random.Range(0.85f, 1f);
+        float critical = 1f;
+        if (Random.value * 100f <= 6.25f)
+        {
+            critical = 2f;
+        }
+            
+        float type = CharTypeChart.GetEffectiveness(move.Base.CharType, this.Base.Type1) * CharTypeChart.GetEffectiveness(move.Base.CharType, this.Base.Type2);
+
+        var charDamageDetails = new CharDamageDetails()
+        {
+            TypeEffectiveness = type,
+            Critical = critical,
+            Fainted = false
+        };
+
+        float modifiers = Random.Range(0.85f, 1f) * type * critical;
         float a = (2 * attacker.Level + 10) / 250f;
         float d = a * move.Base.Power * ((float)attacker.Attack / Defense) + 2;
         int damage = Mathf.FloorToInt(d * modifiers);
@@ -74,9 +89,21 @@ public class Character
         if (HP <= 0)
         {
             HP = 0;
-            return true;
+            charDamageDetails.Fainted = true;
         }
 
-        return false;
+        return charDamageDetails;
     }
+
+
+
+    public class CharDamageDetails
+    {
+        public bool Fainted { get; set; }
+
+        public float Critical { get; set; }
+
+        public float TypeEffectiveness { get; set; }
+    }
+
 }

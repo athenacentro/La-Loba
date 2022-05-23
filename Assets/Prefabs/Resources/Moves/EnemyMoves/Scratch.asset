@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: scratch
   description: 
-  type: 2
+  type1: 1
+  type2: 1
   power: 20
   accuracy: 20
   pp: 10

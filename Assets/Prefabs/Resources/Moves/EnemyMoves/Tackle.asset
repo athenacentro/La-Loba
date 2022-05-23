@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: tackle
   description: 
-  type: 1
-  power: 40
-  accuracy: 80
-  pp: 10
+  type1: 2
+  type2: 2
+  power: 20
+  accuracy: 30
+  pp: 20

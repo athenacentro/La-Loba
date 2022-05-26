@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: bite
   description: 
-  type1: 1
-  type2: 1
-  power: 10
-  accuracy: 40
-  pp: 10
+  charPower: 0
+  enemPower: 1
+  power: 1
+  accuracy: 4
+  pp: 20

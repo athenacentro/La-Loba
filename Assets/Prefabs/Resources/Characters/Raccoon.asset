@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b65cdac3de432343b1ef1f88728e12c, type: 3}
   m_Name: Raccoon
   m_EditorClassIdentifier: 
-  enemyName: 
+  enemyName: Raccoon
   description: 
   leftFacingSprite: {fileID: 1702303914, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
   rightFacingSprite: {fileID: 2068082138, guid: 97cdd63f8dbc7bd4fb684e72a0776b0e, type: 3}
   type1: 1
-  energy: 5
-  attack: 3
-  defense: 3
-  speed: 2
-  spAttack: 4
-  spDefense: 4
+  type2: 1
+  energy: 2
+  attack: 1
+  defense: 1
+  speed: 1
+  spAttack: 1
+  spDefense: 2
   learnablesMoves:
   - moveBase: {fileID: 11400000, guid: 7d9933d942550ca47972cc67edc15ac6, type: 2}
     level: 1

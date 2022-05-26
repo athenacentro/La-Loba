@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b65cdac3de432343b1ef1f88728e12c, type: 3}
+  m_Name: Crow
+  m_EditorClassIdentifier: 
+  enemyName: Crow
+  description: 
+  leftFacingSprite: {fileID: -651108738, guid: 8dd4ac2fa5c70254982f865e4f331806, type: 3}
+  rightFacingSprite: {fileID: -651108738, guid: 8dd4ac2fa5c70254982f865e4f331806, type: 3}
+  type1: 2
+  type2: 2
+  energy: 3
+  attack: 2
+  defense: 1
+  speed: 1
+  spAttack: 3
+  spDefense: 2
+  learnablesMoves:
+  - moveBase: {fileID: 11400000, guid: c0f028866472e214ead509e576902c76, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 6aac1f80ae4798847a56c06da940bda1, type: 2}
+    level: 3

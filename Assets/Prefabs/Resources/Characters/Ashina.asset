@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45017029bf870c14492233a116725583, type: 3}
   m_Name: Ashina
   m_EditorClassIdentifier: 
-  characterName: Ashina
+  name: Ashina
   description: 
-  leftFacingSprite: {fileID: 401913064, guid: bc8ee2164376eeb4894c7cb492c9462f, type: 3}
-  rightFacingSprite: {fileID: 1145147717, guid: bc8ee2164376eeb4894c7cb492c9462f, type: 3}
+  leftFacingSprite: {fileID: -1962041978, guid: bc8ee2164376eeb4894c7cb492c9462f, type: 3}
+  rightFacingSprite: {fileID: -1628604208, guid: bc8ee2164376eeb4894c7cb492c9462f, type: 3}
   type1: 1
-  type2: 0
-  energy: 5
-  attack: 4
-  defense: 4
-  speed: 1
+  type2: 1
+  energy: 1
+  attack: 1
+  defense: 2
+  speed: 2
   spAttack: 2
-  spDefense: 2
+  spDefense: 0
   learnablesMoves:
   - moveBase: {fileID: 11400000, guid: a0ecd1f83512bb34a8ae7b50266aa379, type: 2}
     level: 1

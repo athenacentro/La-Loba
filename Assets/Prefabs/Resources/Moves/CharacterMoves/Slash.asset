@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: slash
   description: 
-  type1: 2
-  type2: 2
-  power: 30
-  accuracy: 60
-  pp: 20
+  charPower: 2
+  enemPower: 0
+  power: 3
+  accuracy: 2
+  pp: 15

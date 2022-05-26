@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum BattleState { Start, PlayerAction, PlayerMove, EnemyMove, Busy }
 
@@ -11,7 +12,6 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleUnit enemyUnit;
     [SerializeField] BattleHud enemyHud;
     [SerializeField] BattleDialogBox dialogBox;
-
 
     int currentAction;
     int currentMove;
@@ -33,11 +33,11 @@ public class BattleSystem : MonoBehaviour
 
         dialogBox.SetMoveNames(playerUnit.Character.Moves);
 
-        yield return (dialogBox.TypeDialog("DANGER! Racoons can be extremely violent creatures and will forge a turmoil to Ashina's state. They are about to challenge Ashina’s deceptions of herself..."));
+        yield return (dialogBox.TypeDialog("DANGER! \nRaccoons can be extremely violent creatures and will forge a turmoil to Ashina's state. They are about to challenge Ashina’s perception of herself..."));
 
         yield return new WaitForSeconds(7f);
 
-        yield return (dialogBox.TypeDialog("Combatting the raccoons will have a positive impact for Ashina. She will learn the ability to be resourceful, to trust herself; sourcing out her own subconscious to bring forth anything she puts her mind to."));
+        yield return (dialogBox.TypeDialog("Combatting the raccoons can create a positive impact for Ashina. She will learn the ability to be resourceful through trusting herself and sourcing out her own subconscious to bring forth anything she puts her mind to."));
 
         yield return new WaitForSeconds(6f);
         PlayerAction();
@@ -46,7 +46,7 @@ public class BattleSystem : MonoBehaviour
     void PlayerAction()
     {
         state = BattleState.PlayerAction;
-        StartCoroutine(dialogBox.TypeDialog("Choose an action:"));
+        StartCoroutine(dialogBox.TypeDialog("Choose an action: \n Use Z key to Enter."));
         dialogBox.EnableActionSelector(true);
     }
 
@@ -69,9 +69,10 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        enemyUnit.PlayHitAnimation();
+
         var enemDamageDetails = enemyUnit.Enemy.TakeDamage(move, playerUnit.Character);
         yield return enemyHud.UpdateHPEnemy();
-        //yield return ShowDamageDetails(enemDamageDetails);
 
         if (enemDamageDetails.Critical > 1f)
         {
@@ -95,6 +96,9 @@ public class BattleSystem : MonoBehaviour
         if (enemDamageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{enemyUnit.Enemy.Base.Name} fainted...");
+            enemyUnit.PlayFaintAnimation();
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene("2ndLevel");
         }
         else
         {
@@ -113,79 +117,24 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
+        playerUnit.PlayHitAnimation();
+
         var charDamageDetails = playerUnit.Character.TakeDamage(move, enemyUnit.Enemy);
         yield return playerHud.UpdateHPChar();
-        //yield return ShowDamageDetails(charDamageDetails);
-
-        if (charDamageDetails.Critical > 1f)
-        {
-            yield return new WaitForSeconds(1f);
-            yield return dialogBox.TypeDialog("A critical hit!");
-        }
-
-        if (charDamageDetails.TypeEffectiveness > 1f)
-        {
-            yield return new WaitForSeconds(1f);
-            yield return dialogBox.TypeDialog("An effective move!");
-        }
-        else if (charDamageDetails.TypeEffectiveness < 1f)
-        {
-            yield return new WaitForSeconds(1f);
-            yield return dialogBox.TypeDialog("Hmm...");
-        }
-
         yield return new WaitForSeconds(1f);
 
         if (charDamageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{playerUnit.Character.Base.Name} fainted...");
+            playerUnit.PlayFaintAnimation();
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene("1stLevel");
         }
         else
         {
             PlayerAction();
         }
     }
-
-    //IEnumerator ShowDamageDetails(EnemDamageDetails enemDamageDetails)
-    //{
-
-    //    if (enemDamageDetails.Critical > 1f)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-    //        yield return dialogBox.TypeDialog("A critical hit!");
-    //    }
-
-    //    if (enemDamageDetails.TypeEffectiveness > 1f)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-    //        yield return dialogBox.TypeDialog("An effective move!");
-    //    }
-    //    else if (enemDamageDetails.TypeEffectiveness < 1f)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-    //        yield return dialogBox.TypeDialog("Hmm...");
-    //    }
-    //}
-
-    //IEnumerator ShowDamageDetails(CharDamageDetails charDamageDetails)
-    //{
-    //    if (charDamageDetails.Critical > 1f)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-    //        yield return dialogBox.TypeDialog("A critical hit!");
-    //    }
-
-    //    if (charDamageDetails.TypeEffectiveness > 1f)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-    //        yield return dialogBox.TypeDialog("An effective move!");
-    //    }
-    //    else if (charDamageDetails.TypeEffectiveness < 1f)
-    //    {
-    //        yield return new WaitForSeconds(1f);
-    //        yield return dialogBox.TypeDialog("Hmm...");
-    //    }
-    //}
 
     private void Update()
     {

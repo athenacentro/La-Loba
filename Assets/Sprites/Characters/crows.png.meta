@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,7 +124,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +145,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,7 +166,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +187,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +208,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,7 +229,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,7 +250,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +271,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,7 +292,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,7 +313,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,7 +334,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,6 +342,27 @@ TextureImporter:
       bones: []
       spriteID: 8d843e770743e134ea88a95a29a2d071
       internalID: 2013096476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crows_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5acfe18e3a0614cb744006c856bcd8
+      internalID: -483978680
       vertices: []
       indices: 
       edges: []
@@ -357,76 +378,76 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      crows_40: -1926880970
-      crows_43: 673489698
-      crows_12: 458290027
-      crows_11: -362052778
-      crows_30: -1728026256
-      crows_0: -483978680
-      crows_58: 2013096476
-      crows_31: 2125726227
-      crows_59: 1485540807
-      crows_16: 90362180
-      crows_69: 1698509590
-      crows_15: 1020644507
-      crows_41: -1732861454
-      crows_27: 850834936
-      crows_28: -1851706468
-      crows_35: -1185560690
-      crows_63: -799673005
-      crows_14: 287080614
-      crows_9: -809083182
-      crows_44: -39959359
-      crows_26: -910348171
-      crows_51: 2073351679
-      crows_57: 97939439
-      crows_18: 167885263
-      crows_21: 349971611
-      crows_13: -2140291547
-      crows_60: -382132952
-      crows_49: -1259224867
-      crows_65: -406859943
-      crows_66: 905352384
-      crows_1: 1990719903
-      crows_62: -1553732130
-      crows_46: 470006891
+      crows_37: 1698509590
+      crows_43: 1990719903
+      crows_12: -359251235
+      crows_11: -2126199706
+      crows_30: 82740799
+      crows_0: 2068453007
+      crows_58: 1863568627
+      crows_31: 1961609276
+      crows_59: 1427507577
+      crows_16: -809083182
+      crows_69: -1042818088
+      crows_15: -362052778
+      crows_41: 458290027
+      crows_27: -2140291547
+      crows_28: 287080614
+      crows_35: 1020644507
+      crows_63: 90362180
+      crows_14: -2013269398
+      crows_9: 167885263
+      crows_44: 1587085970
+      crows_26: 1912034122
+      crows_51: 349971611
+      crows_57: -1065927132
+      crows_18: 804768607
+      crows_21: -1384054343
+      crows_13: 354694438
+      crows_60: -910348171
+      crows_49: 850834936
+      crows_65: -1851706468
+      crows_66: 1008830612
+      crows_1: -1728026256
+      crows_62: 2125726227
+      crows_46: -477927043
       crows_33: -1599557174
-      crows_36: -233797357
-      crows_2: -359251235
-      crows_8: 1427507577
-      crows_61: -75791479
-      crows_20: 1912034122
-      crows_17: -2013269398
-      crows_19: 1587085970
-      crows_53: -1793792653
-      crows_34: 1326031331
-      crows_5: 2068453007
-      crows_3: -2126199706
+      crows_36: 1326031331
+      crows_2: -1185560690
+      crows_61: -1598038078
+      crows_8: -233797357
+      crows_20: -1942646117
+      crows_17: 773738977
+      crows_19: -1926880970
+      crows_53: -1732861454
+      crows_34: -1398357092
+      crows_5: 673489698
+      crows_3: -39959359
       crows_45: -770221871
-      crows_32: -477927043
+      crows_32: 470006891
       crows_47: 1062191565
-      crows_52: 998502173
-      crows_23: 804768607
-      crows_67: 2183264
-      crows_55: -1920272117
-      crows_64: -543767743
-      crows_7: 1961609276
-      crows_56: 1435525630
-      crows_29: 1008830612
-      crows_25: 354694438
-      crows_4: 82740799
-      crows_24: -1384054343
-      crows_38: -1942646117
-      crows_50: -849611344
-      crows_48: -651108738
-      crows_10: -1042818088
-      crows_42: -1398357092
-      crows_68: 929763548
-      crows_54: -662902420
-      crows_6: 1863568627
-      crows_39: 773738977
-      crows_22: -1065927132
-      crows_37: -1598038078
+      crows_52: -651108738
+      crows_23: -1259224867
+      crows_67: -849611344
+      crows_55: 2073351679
+      crows_64: 998502173
+      crows_7: -1793792653
+      crows_56: -662902420
+      crows_29: -1920272117
+      crows_25: 1435525630
+      crows_4: 97939439
+      crows_24: 2013096476
+      crows_38: 1485540807
+      crows_50: -382132952
+      crows_48: -75791479
+      crows_10: -1553732130
+      crows_42: -799673005
+      crows_68: -543767743
+      crows_54: -406859943
+      crows_6: 905352384
+      crows_39: 2183264
+      crows_22: 929763548
+      crows_40: -483978680
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

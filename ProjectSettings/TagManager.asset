@@ -44,6 +44,9 @@ TagManager:
   - name: Ground
     uniqueID: 4001071179
     locked: 0
+  - name: River
+    uniqueID: 3821327737
+    locked: 0
   - name: Foreground
     uniqueID: 1521856437
     locked: 0
@@ -56,11 +59,11 @@ TagManager:
   - name: Bushes
     uniqueID: 2979966033
     locked: 0
-  - name: Character
-    uniqueID: 2921482523
-    locked: 0
   - name: Foreground Trees
     uniqueID: 681794265
+    locked: 0
+  - name: Character
+    uniqueID: 2921482523
     locked: 0
   - name: Trees
     uniqueID: 1837115127

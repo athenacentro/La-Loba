@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1492,6 +1492,7 @@ TextureImporter:
       wolves_51: -1303880289
       wolves_3: 475321781
       wolves_34: -2084327863
+      wolves_59: -157881028
       wolves_32: 138385629
       wolves_48: 1720675721
       wolves_19: -1073896896
@@ -1501,7 +1502,6 @@ TextureImporter:
       wolves_10: -1530914132
       wolves_27: 728377491
       wolves_54: 1744435931
-      wolves_59: -157881028
       wolves_52: -304582112
       wolves_43: -304286473
       wolves_21: 2014993547
